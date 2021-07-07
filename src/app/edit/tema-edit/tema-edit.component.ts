@@ -16,7 +16,7 @@ export class TemaEditComponent implements OnInit {
 
     private temaService: TemaService,
     private router: Router,
-    private route: ActivatedRoute //pega a rota ativa
+    private route: ActivatedRoute //pega um parametro da rota
   ) { }
 
   ngOnInit(){
