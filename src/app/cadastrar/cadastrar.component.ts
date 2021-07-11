@@ -48,5 +48,7 @@ export class CadastrarComponent implements OnInit {
       alert('Usuario cadastrado com sucesso!!')
     })
   }
+  
 }
+
 }

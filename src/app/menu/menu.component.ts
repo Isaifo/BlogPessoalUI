@@ -11,6 +11,7 @@ export class MenuComponent implements OnInit {
 
   nome = environment.nome
   foto = environment.foto
+  id = environment.id // pega o environment e passa na variável id, para saber quem é o usuário que está logado
 
 
   constructor(
