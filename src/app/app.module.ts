@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { ModalModule } from 'ngx-bootstrap/modal';
-
+import { OrderModule } from 'ngx-order-pipe';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -21,6 +21,7 @@ import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.compon
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { AlertasComponent } from './alertas/alertas.component';
+
 
 
 
@@ -45,8 +46,8 @@ import { AlertasComponent } from './alertas/alertas.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ModalModule.forRoot() // raiz do sistema, pro modal seja acessado em todo o projeto
-
+    ModalModule.forRoot(), // raiz do sistema, pro modal ser acessado em todo o projeto
+    OrderModule
   ],
   providers: [{
 
